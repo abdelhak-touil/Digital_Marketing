@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -600px;
+}
+
+/* start header */
+
+.container .header {
+    padding: 60px;
+    margin: 20px;
+}
+
+.container .header .logo {
+    float: left;
+}
+
+.container .header .logo h2 {
+    text-transform: uppercase;
+}
+
+.container .header .navbar {
+    float: right;
+}
+
+.container .header .navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.container .header .navbar ul li {
+    float: left;
+    margin: 0px 20px;
+}
+
+.container .header .navbar ul li button{
+    padding: 10px;
+    margin-top: -10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: rgb(197, 136, 254);
+    color: white;
+    text-transform: uppercase;
+}
+
+.container .header .navbar ul li button:hover {
+    background-color: darkblue;
+    color: rgb(241, 207, 119);
+}
+
+/* end header */
+
+/* start main */
+
+.container .main {
+    padding: 120px;
+    margin: 15px;
+}
+
+.container .main .image img {
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-top: -110px;
+    margin-right: -80px;
+}
+
+.container .main .section-content {
+    margin: -60px;
+}
+
+
+.container .main .section-content .title .description button{
+    float: left;
+    margin: 20px;
+}
+
+.container .main .section-content .title h1 {
+    margin: 10px 0px;
+    font-size: 80px;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+.container .main .section-content .title h2 {
+    margin: 10px 0px;
+    font-size: 40px;
+    color: rgb(241, 207, 119);
+    text-transform: uppercase;
+}
+
+.container .main .section-content .description p{
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.container .main .section-content button {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: rgb(197, 136, 254);
+    color: white;
+    text-transform: uppercase;
+}
+
+.container .main .section-content button:hover {
+    background-color: darkblue;
+    color: rgb(241, 207, 119);
+}
